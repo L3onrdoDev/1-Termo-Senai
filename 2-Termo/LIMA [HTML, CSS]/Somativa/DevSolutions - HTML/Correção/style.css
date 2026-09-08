@@ -147,9 +147,10 @@ button {
 footer {
     background-color: #1e3a5f;
     color: white;
-
+    text-align: center;
 }
 
 footer p {
     font-size: 14px;
+    text-align: center;
 }
