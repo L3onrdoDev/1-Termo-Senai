@@ -47,6 +47,15 @@ pause
 goto MENU
 
 :PERGUNTA_AULA
+:: Conta quantas aulas ja existem na categoria escolhida
+set "CONTADOR=0"
+for /f %%A in ('dir /b /ad "%BASE%\%CATEGORIA%\Aula*" 2^>nul ^| find /c /v ""') do set "CONTADOR=%%A"
+set /a PROXIMA=CONTADOR+1
+
+echo.
+echo Categoria: %CATEGORIA%
+echo Aulas ja criadas nesta categoria: %CONTADOR%
+echo Sugestao para continuar a sequencia: Aula [%PROXIMA%]
 echo.
 set /p NUMERO="Digite o numero da aula: "
 

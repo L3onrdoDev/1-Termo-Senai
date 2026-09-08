@@ -1,0 +1,155 @@
+/* Configurações Gerais */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-weight: 300;
+    font-size: 42px;
+    margin: 10px;
+}
+
+header p {
+    font-size: 30px;
+}
+
+/* Painel de Navegação */
+nav {
+    margin-top: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    font-weight: bold;
+}
+
+/* Conteúdo Principal */
+
+main {
+    margin: 30px;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+section h2 {
+    color: #1e3a5f;
+    font-size: 30px;
+    text-align: center;
+}
+
+section h3 {
+    color: #1e3a5f;
+}
+
+section p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Imagem Principal */
+
+.imagem-principal {
+    width: 500px;
+    max-width: 100%;
+    display: block;
+    margin: 20px auto;
+}
+
+.web {
+    background-color: #eaf2f8;
+    border: 1px solid #cccccc;
+    margin: 20px;
+    padding: 20px;
+}
+
+.sistemas {
+    background-color: #eaf2f8;
+    border: 1px solid #cccccc;
+    margin: 20px;
+    padding: 20px;
+}
+
+.banco-dados {
+    background-color: #eaf2f8;
+    border: 1px solid #cccccc;
+    margin: 20px;
+    padding: 20px;
+}
+
+.consultoria {
+    background-color: #eaf2f8;
+    border: 1px solid #cccccc;
+    margin: 20px;
+    padding: 20px;
+}
+
+.funcionarios {
+    background-color: #f8f8f8;
+    border: 1px solid #cccccc;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.funcionarios img {
+    width: 150px;
+    height: 150px;
+}
+
+.vendas {
+    background-color: #f8f8f8;
+    border: 1px solid #cccccc;
+    margin: 20px;
+    padding: 20px;
+}
+
+.empresarial {
+    background-color: #f8f8f8;
+    border: 1px solid #cccccc;
+    margin: 20px;
+    padding: 20px;
+}
+
+.institucional img{
+    background-color: #f8f8f8;
+    border: 1px solid #cccccc;
+    margin: 20px;
+    padding: 20px;
+}
+
+button {
+    background-color: #1e3a5f;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #1e3a5f;
+    color: white;
+
+}
+
+footer p {
+    font-size: 14px;
+}
